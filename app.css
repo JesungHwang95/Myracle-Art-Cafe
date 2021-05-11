@@ -12,6 +12,15 @@ h1, h2, h3 h4 {
     font-family: itim, sans-serif;
 }
 
+h1 {
+    font-family: itim, sans-serif;
+    margin: auto;
+    display: block;
+    background-color: #cc9c9c;
+    width: 750px;
+    border-radius: 5em;
+}
+
 p {
     text-align: center;
     font-family: koho, sans-serif;
