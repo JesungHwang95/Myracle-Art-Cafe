@@ -1,52 +1,73 @@
-* {
-    background-color: #b5838d;
+body {
+    background-color: #fccc;
+    color: #673737;
 }
 
 div {
     text-align: center;
 }
 
+h1, h2, h3 h4 {
+    text-align: center;
+    font-family: itim, sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: koho, sans-serif;
+}
+
 hr {
-    border: 3px solid #e5989b;
+    border: 3px solid #cc9c9c;
 }
 
 a {
     text-decoration: none;
-    color: #e5989b;
+    color: #673737;
     transition: .5s;
 }
 
 a:hover {
-    color: plum;
+    color: #cc9c9c;
     transition: .5s;
 }
 
 .myrimage {
-    width: 500px;
-    height: 500px;
-    margin-right: 20px;
-    border: 2px solid black;
-    background-color: magenta;
     float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid #673737;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.myrimage:hover {
+    box-shadow: 4px 4px #a17d7d;
+    transform: translate(-0.2em, -0.2em);
+    transition: 0.5s;
 }
 
 .myrtext {
     text-align: left;
     text-align: justify;
-    float: left;
+    margin: 20px;
+    padding-bottom: 98px;
 }
 
-.camimage {
-    width: 500px;
-    height: 500px;
-    margin-right: 20px;
-    border: 2px solid black;
-    background-color: magenta;
-    float: left;
+.art {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: 2px solid #673737;
+    cursor: pointer;
+    transition: 0.25s;
 }
 
-.camtext {
-    text-align: left;
-    text-align: justify;
-    float: left;
+.art:hover {
+    box-shadow: 4px 4px #a17d7d;
+    transform: translate(-0.2em, -0.2em);
+    transition: 0.5s;
 }
