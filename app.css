@@ -13,11 +13,11 @@ h1, h2, h3 h4 {
 }
 
 h1 {
-    font-family: itim, sans-serif;
     margin: auto;
     display: block;
-    background-color: #cc9c9c;
+    background-color: #e6b4b4;
     width: 750px;
+    height: 44px;
     border-radius: 5em;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-    color: #cc9c9c;
+    color: #b35e5e;
     transition: .5s;
 }
 
@@ -60,10 +60,9 @@ a:hover {
 }
 
 .myrtext {
-    text-align: left;
-    text-align: justify;
+    text-align: left, justify, center;
     margin: 20px;
-    padding-bottom: 98px;
+    padding-bottom: auto;
 }
 
 .art {
@@ -79,4 +78,20 @@ a:hover {
     box-shadow: 4px 4px #a17d7d;
     transform: translate(-0.2em, -0.2em);
     transition: 0.5s;
+}
+
+.links {
+    text-align: center;
+    font-family: itim, sans-serif;
+    background-color: #e6b4b4;
+    display: inline-block;
+    height: 23px;
+    width: 335px;
+    border-radius: 1em;
+}
+
+.gift {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
 }
